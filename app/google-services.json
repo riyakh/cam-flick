@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "550778747773",
+    "firebase_url": "https://camflick-polaris.firebaseio.com",
+    "project_id": "camflick-polaris",
+    "storage_bucket": "camflick-polaris.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550778747773:android:e6b6539a80106414",
+        "android_client_info": {
+          "package_name": "com.divyanshsaxena.camflick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550778747773-vsfgt4knlpfgl2ot1kdnq6tkoluir4jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM8xtIR_J2qzb8wkLIgweQfRf1v7YQ3Do"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
