@@ -25,7 +25,7 @@
         android:id="@+id/varcod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="verifivation code"
+        android:hint="verification code"
         android:singleLine="true" />
 
     <Button
