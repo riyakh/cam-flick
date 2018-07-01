@@ -53,14 +53,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="Google +" />
+            android:background="@drawable/buttonbackground"
+            android:drawableLeft="@drawable/ic_gmail"
+            android:padding="10dp"
+            android:text="Google +"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/Mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="70dp"
-            android:text="Mobile Number" />
+            android:background="@drawable/buttonbackground"
+            android:drawableLeft="@drawable/ic_smartphone"
+            android:padding="10dp"
+            android:text="Mobile Number"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 
