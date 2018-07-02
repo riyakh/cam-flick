@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Cam Flick</string>
-    <string name="fb_app_id">231866527605316</string>
-    <string name="account_kit_client_id">0980b7ccc8e99c22d385c545dd4b4ef6</string>
-    <string name="ak_login_protocol_scheme">ak0980b7ccc8e99c22d385c545dd4b4ef6</string>
+    <string name="FACEBOOK_APP_ID">231866527605316</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">0980b7ccc8e99c22d385c545dd4b4ef6</string>
     <string name="sign_text">Sign In with your Google account or Mobile Number.</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

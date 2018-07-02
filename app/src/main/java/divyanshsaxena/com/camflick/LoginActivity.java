@@ -5,9 +5,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.facebook.accountkit.AccountKit;
+import com.facebook.accountkit.AccessToken;
+import com.facebook.accountkit.ui.AccountKitActivity;
+import com.facebook.accountkit.ui.AccountKitConfiguration;
+import com.facebook.accountkit.ui.LoginType;
+
 
 public class LoginActivity extends Activity {
+    public static int APP_REQUEST_CODE = 99;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +23,18 @@ public class LoginActivity extends Activity {
         findViewById(R.id.Mobile).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launchSignInGoogle();
+                AccessToken accessToken = AccountKit.getCurrentAccessToken();
+                if (accessToken != null) {
+
+                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+
+                } else {
+
+
+                    phoneLogin();
+                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+
+                }
 
             }
         });
@@ -30,11 +47,18 @@ public class LoginActivity extends Activity {
             }
         });
 
-        }
+    }
 
-private void launchSignInGoogle(){
-    startActivity(new Intent(LoginActivity.this, PhoneLoginActivity.class));
-
-
-}
+    public void phoneLogin() {
+        final Intent intent = new Intent(this, AccountKitActivity.class);
+        AccountKitConfiguration.AccountKitConfigurationBuilder configurationBuilder =
+                new AccountKitConfiguration.AccountKitConfigurationBuilder(
+                        LoginType.PHONE,
+                        AccountKitActivity.ResponseType.CODE); // or .ResponseType.TOKEN
+        // ... perform additional configuration ...
+        intent.putExtra(
+                AccountKitActivity.ACCOUNT_KIT_ACTIVITY_CONFIGURATION,
+                configurationBuilder.build());
+        startActivityForResult(intent, APP_REQUEST_CODE);
+    }
 }
