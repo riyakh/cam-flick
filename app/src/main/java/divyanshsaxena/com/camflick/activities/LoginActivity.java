@@ -1,4 +1,4 @@
-package divyanshsaxena.com.camflick;
+package divyanshsaxena.com.camflick.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import com.facebook.accountkit.AccessToken;
 import com.facebook.accountkit.ui.AccountKitActivity;
 import com.facebook.accountkit.ui.AccountKitConfiguration;
 import com.facebook.accountkit.ui.LoginType;
+
+import divyanshsaxena.com.camflick.R;
 
 
 public class LoginActivity extends Activity {

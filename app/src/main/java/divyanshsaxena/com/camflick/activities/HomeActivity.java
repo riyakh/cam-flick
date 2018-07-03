@@ -1,4 +1,4 @@
-package divyanshsaxena.com.camflick;
+package divyanshsaxena.com.camflick.activities;
 
 import com.facebook.accountkit.AccountKit;
 import com.facebook.accountkit.AccessToken;
@@ -16,6 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import divyanshsaxena.com.camflick.R;
 
 public class HomeActivity extends Activity
         implements NavigationView.OnNavigationItemSelectedListener {

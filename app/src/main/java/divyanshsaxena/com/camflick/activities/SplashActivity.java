@@ -1,10 +1,11 @@
-package divyanshsaxena.com.camflick;
+package divyanshsaxena.com.camflick.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import divyanshsaxena.com.camflick.R;
 
 public class SplashActivity extends Activity {
 public static int SPLASH_TIME_OUT = 4000;

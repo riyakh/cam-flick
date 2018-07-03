@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="divyanshsaxena.com.camflick.HomeActivity">
+    tools:context="divyanshsaxena.com.camflick.activities.HomeActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -25,6 +25,7 @@
     <android.support.design.widget.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:foregroundGravity="center"
         android:layout_alignParentBottom="true">
 
         <LinearLayout

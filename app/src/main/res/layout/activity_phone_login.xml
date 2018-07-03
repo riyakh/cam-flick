@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="divyanshsaxena.com.camflick.PhoneLoginActivity">
+    tools:context="divyanshsaxena.com.camflick.activities.PhoneLoginActivity">
 
     <EditText
         android:id="@+id/mobileno"
