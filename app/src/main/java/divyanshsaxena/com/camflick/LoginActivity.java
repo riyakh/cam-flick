@@ -32,7 +32,6 @@ public class LoginActivity extends Activity {
 
 
                     phoneLogin();
-                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
 
                 }
 
@@ -60,5 +59,7 @@ public class LoginActivity extends Activity {
                 AccountKitActivity.ACCOUNT_KIT_ACTIVITY_CONFIGURATION,
                 configurationBuilder.build());
         startActivityForResult(intent, APP_REQUEST_CODE);
+        startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+
     }
 }
