@@ -2,20 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/item_home"
-        android:icon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/ic_newspaper"
         android:title="">
     </item>
 
     <item android:id="@+id/item_search"
-        android:icon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/ic_magnifier"
         android:title="">
     </item>
     <item android:id="@+id/item_upload"
-        android:icon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/ic_photo_camera"
         android:title="">
     </item>
     <item android:id="@+id/item_notification"
-        android:icon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/ic_heart_sketch"
         android:title="">
     </item>
     <item android:id="@+id/item_profile"

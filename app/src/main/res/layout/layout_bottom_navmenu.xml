@@ -12,6 +12,7 @@
            android:id="@+id/bottomNavMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:itemIconTint="#FFFFFF"
             app:menu="@menu/bottom_nav_menu">
 
 
