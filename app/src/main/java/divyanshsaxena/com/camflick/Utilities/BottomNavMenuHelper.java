@@ -18,6 +18,7 @@ import divyanshsaxena.com.camflick.activities.NotificationActivity;
 import divyanshsaxena.com.camflick.activities.ProfileActivity;
 import divyanshsaxena.com.camflick.activities.SearchActivity;
 import divyanshsaxena.com.camflick.activities.UploadActivity;
+import divyanshsaxena.com.camflick.popups.ProfilePopup;
 
 public class BottomNavMenuHelper {
 

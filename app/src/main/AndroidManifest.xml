@@ -41,11 +41,14 @@
             android:name=".activities.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activities.FeedActivity"/>
-        <activity android:name=".activities.NotificationActivity"/>
-        <activity android:name=".activities.ProfileActivity"/>
-        <activity android:name=".activities.SearchActivity"/>
-        <activity android:name=".activities.UploadActivity"/>
+        <activity android:name=".activities.FeedActivity" />
+        <activity android:name=".activities.NotificationActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.SearchActivity" />
+        <activity android:name=".activities.UploadActivity" />
+        <activity
+            android:name=".popups.ProfilePopup"
+            android:theme="@style/AppTheme.CustomTheme" />
     </application>
 
 </manifest>
