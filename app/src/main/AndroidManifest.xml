@@ -46,6 +46,7 @@
         <activity android:name=".activities.ProfileActivity" />
         <activity android:name=".activities.SearchActivity" />
         <activity android:name=".activities.UploadActivity" />
+        <activity android:name=".activities.AccountSettingsActivity"/>
         <activity
             android:name=".popups.ProfilePopup"
             android:theme="@style/AppTheme.CustomTheme" />

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_center_viewpage" />
+
+    <RelativeLayout
+        android:id="@+id/rellayoutaccountsettings1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rellayoutaccountsettings2"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/activity_top_accountsettingtoolbar" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rellayoutaccountsettings2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rellayoutaccountsettings3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/rellayoutaccountsettings2"
+                android:layout_marginBottom="50dp">
+
+                <include layout="@layout/activity_center_accountsettings" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+        <include layout="@layout/layout_bottom_navmenu" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

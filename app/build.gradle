@@ -33,6 +33,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:9.6.1'
     implementation 'com.facebook.android:account-kit-sdk:4.+'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     implementation 'com.android.support:design:26.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

@@ -1,4 +1,4 @@
-package divyanshsaxena.com.camflick.activities;
+package divyanshsaxena.com.camflick.Utilities;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -26,4 +26,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return mFragmentList.size();
     }
+
+public void addFragment(Fragment fragment){
+        mFragmentList.add(fragment);
+}
 }

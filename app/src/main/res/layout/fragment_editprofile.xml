@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/editprofilerellayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <include layout="@layout/activity_top_editprofiletoolbar"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/editprofilerellayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/editprofilerellayout1">
+
+            <include layout="@layout/snippet_centre_editprofile"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
